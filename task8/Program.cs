@@ -2,13 +2,13 @@
  а на выходе показывает все чётные числа от 1 до N.
 
 5 -> 2, 4
-8 -> 2, 4, 6, 8*/
+8 -> 2, 4, 6, 8*/ 
 
 Console.Write("Введите число N: "); 
 
 int number = Convert.ToInt32(Console.ReadLine()); 
 
-int evenNumber = number%2 == 0;
+int evenNumber = 0;
 
 while (evenNumber <= number)
 
